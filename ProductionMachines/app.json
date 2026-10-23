@@ -1,0 +1,46 @@
+{
+  "id": "3a85483d-bd72-45ac-9c8b-c4c1b16fc75a",
+  "name": "Production Machines and Maintenance Log",
+  "publisher": "Midstream Integrations",
+  "version": "1.0.0.0",
+  "brief": "Machine register tied to released production orders, with a maintenance, QA and safety log and document attachments.",
+  "description": "Machine register tied to released production orders, with a maintenance, QA and safety log and document attachments.",
+  "privacyStatement": "https://github.com/Midstream-Integrations/bc-production-machines/blob/main/PRIVACY.md",
+  "EULA": "https://github.com/Midstream-Integrations/bc-production-machines/blob/main/LICENSE",
+  "help": "https://github.com/Midstream-Integrations/bc-production-machines#readme",
+  "url": "https://github.com/Midstream-Integrations/bc-production-machines",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    },
+    {
+      "id": "63ca2fa4-4f03-4f2b-a480-172fef340d3f",
+      "name": "System Application",
+      "publisher": "Microsoft",
+      "version": "25.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "25.0.0.0",
+  "idRanges": [
+    {
+      "from": 50170,
+      "to": 50189
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "14.0",
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ]
+}
